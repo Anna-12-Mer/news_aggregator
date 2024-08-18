@@ -1,0 +1,34 @@
+.personalized-feed {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.filter-options {
+  margin-top: 15px;
+}
+
+.filter-bloc {
+  margin-bottom: 20px;
+}
+
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-checkbox input {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .personalized-feed {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-button {
+  background-color: #007bff !important;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
